@@ -8,15 +8,15 @@ body,html{
     width: 100%;
 }
 header{
-    width: 100;
-    padding: 1em 10%;
+    width: 100%;
+    max-width: 100%;
+    height: 4em;
+    padding: 1em 15%;
     display: flex;
     justify-content: space-between;
     align-items: center;
     background-color: #3a3c42;
     color: white;
-
-
 }
 header ul{
     list-style: none;
@@ -37,7 +37,72 @@ header ul li a:hover{
     color: yellowgreen;;
 }
 
+section#slider{
+    width: 100%;
+    max-width: 100%;
+    height: calc(100vh - 4em);
+    background: url('./img/sample_background3.png');
+    background-color: rgba(58, 60, 66,0.8);
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+}
+section#slider .wrapper{
+    width: 70%;
+    max-width: 70%;
+    padding-top: 6em;
+    margin: 0 auto;
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    align-items: center;
+}
+div#headPersons{
+    display: flex;
+    align-items: center;
+    justify-content: center;
 
+}
+section#slider h1{
+    font-size: 5.5em;
+}
+
+section#slider .wrapper p{
+    text-align: center;
+}
+
+section#slider .wrapper a{
+    text-decoration: none;
+    color: white;
+    background-color: #4fc680;
+    padding: 0.5em 2em;
+    border-radius: 0.2em;
+    margin-top: 1em;
+}
+.green{
+    color: #4fc680;
+}
+
+section#android{
+    width: 100%;
+    max-width: 100%;
+    padding: 0 5em;
+    height: 60vh;
+    background: url("./img/icons_bck.png");
+    background-color: #4fc680;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items:  center;
+    text-align: center;
+}
+section#android div{
+    flex-basis: 25%;
+}
+
+section#android div h3{
+    padding: 1em 0;
+}
 /* MERVE'S CODE*/
 
 /* ANIL'S CODE */

@@ -1,5 +1,43 @@
 /* ///////NADIR'S CODE ////// */
- 
+ *{
+     box-sizing: border-box;
+     margin: 0;
+     padding: 0;
+ }
+body,html{
+    width: 100%;
+}
+header{
+    width: 100;
+    padding: 1em 10%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #3a3c42;
+    color: white;
+
+
+}
+header ul{
+    list-style: none;
+}
+
+header ul li{
+    display: inline;
+    padding: 0 1em;
+}
+header   a{
+    text-decoration: none;
+    text-transform: capitalize;
+    color: white;
+    font-weight: bolder;
+}
+
+header ul li a:hover{
+    color: yellowgreen;;
+}
+
+
 /* MERVE'S CODE*/
 
 /* ANIL'S CODE */

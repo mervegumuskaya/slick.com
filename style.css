@@ -26,7 +26,7 @@ header ul li{
     display: inline;
     padding: 0 1em;
 }
-header   a{
+header a{
     text-decoration: none;
     text-transform: capitalize;
     color: white;
@@ -112,6 +112,47 @@ section#android div{
 section#android div h3{
     padding: 1em 0;
 }
+
+@media screen and (min-width: 768px) and (max-width: 1050px){
+    section#slider{
+        height: fit-content;
+        padding-bottom: 1em;
+
+    }
+    header a{
+        font-size: 0.7em;
+    }
+    section#slider h1{
+        font-size: 3em;
+    }
+    section#android{
+        height: fit-content;
+    }
+}
+
+@media screen and (max-width: 768px){
+    header{
+        height: fit-content;
+
+    }
+    section#slider{
+        height: fit-content;
+        padding-bottom: 1em;
+
+    }
+    header a{
+        font-size: 0.4em;
+    }
+    section#slider h1{
+        font-size: 2em;
+    }
+    section#android{
+        height: fit-content;
+        flex-direction: column;
+    }
+}
+
+
 /* MERVE'S CODE*/
 
 /* ANIL'S CODE */

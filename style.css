@@ -66,6 +66,13 @@ div#headPersons{
 section#slider h1{
     font-size: 5.5em;
 }
+section#slider h1::after{
+    content: "";
+    display: inline-block;
+    background-color:#4fc680 ;
+    height: 0.2em;
+    width: 0.2em;
+}
 
 section#slider .wrapper p{
     text-align: center;
@@ -81,6 +88,8 @@ section#slider .wrapper a{
 }
 .green{
     color: #4fc680;
+    background-color:#4fc680 ;
+    
 }
 
 section#android{
